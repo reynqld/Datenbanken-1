@@ -10,6 +10,8 @@
 *.idea
 *.org
 target/
+out/
+build/
 *.swp
 *.lst
 *.prefs
