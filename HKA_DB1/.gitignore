@@ -10,3 +10,7 @@
 *.idea
 *.iml
 *.org
+out/
+.idea/
+target/
+build/
