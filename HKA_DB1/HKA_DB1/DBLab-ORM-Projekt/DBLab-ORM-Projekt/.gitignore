@@ -1,0 +1,52 @@
+# ======================
+# Maven
+# ======================
+target/
+
+# ======================
+# Eclipse / IDE files
+# ======================
+.classpath
+.project
+.settings/
+.metadata/
+.recommenders/
+
+# ======================
+# JRE / System libraries
+# ======================
+.jre/
+JRE System Library/
+
+# ======================
+# Maven dependency cache (if accidentally created in project)
+# ======================
+.mvn/
+.mvn/wrapper/
+**/dependency-reduced-pom.xml
+
+# ======================
+# Build / compiled output
+# ======================
+*.class
+
+# ======================
+# Test sources
+# ======================
+src/test/
+
+# ======================
+# Resources
+# ======================
+src/main/resources/
+
+# ======================
+# Logs
+# ======================
+*.log
+
+# ======================
+# OS-specific
+# ======================
+.DS_Store
+Thumbs.db
