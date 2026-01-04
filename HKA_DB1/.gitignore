@@ -19,5 +19,4 @@ build/
 *.json
 *.classpath
 *.project
-*.pdf
 *.class
