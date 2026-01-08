@@ -11,7 +11,7 @@ public class DatabaseInitializer {
     private static Connection getPostgreSQLConnection() throws SQLException {
         String url = "jdbc:postgresql://localhost:5432/DB1_BonusAufgabe_WeatherReader";
         String user = "postgres";
-        String password = "Reynald256";
+        String password = "DB1";
 
         Connection connection = DriverManager.getConnection(url, user, password);
         System.out.println("Connection to Weather Forecasts Database established: " + connection.getCatalog() + "\n");
@@ -30,7 +30,7 @@ public class DatabaseInitializer {
 
     public void closePostgreSQLConnection(Connection connection) throws SQLException {
         connection.close();
-        if (connection.isClosed()) { System.out.println("Connection closed."); };
+        if (connection.isClosed()) { System.out.println("Connection closed."); }
     }
 
     public static void dumpSQLException(SQLException ex) {
