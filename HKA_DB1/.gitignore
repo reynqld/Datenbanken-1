@@ -15,7 +15,6 @@ build/
 *.swp
 *.lst
 *.prefs
-*.xml
 *.json
 *.classpath
 *.project
